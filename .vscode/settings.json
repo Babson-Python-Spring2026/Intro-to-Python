@@ -23,5 +23,9 @@
 
   // Keep environment handling predictable
   "python.analysis.typeCheckingMode": "off",
-  "python.analysis.diagnosticMode": "workspace"
+  "python.analysis.diagnosticMode": "workspace",
+
+  "files.exclude": {
+    "**/.vscode": true
+}
 }
