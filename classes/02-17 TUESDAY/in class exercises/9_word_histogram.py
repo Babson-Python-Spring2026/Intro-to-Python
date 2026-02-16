@@ -8,5 +8,12 @@ def word_histogram(text):
     - Ignore punctuation.
     Example:
     "apple banana apple" -> {'apple': 2, 'banana': 1}
-    """
-    pass
+"""
+    txt ='''the cat in the hat is back. is the cat back or is the hat back. 
+if all cats have hats do all hats have cats. which really wears which? 
+does the cat wear the hat or does the hat wear the cat?'''.lower()
+    print(txt)
+
+word_histogram('''the cat in the hat is back! is the cat back or is the hat back? 
+if all cats have hats do all hats have cats. which really wears which? 
+does the cat wear the hat or does the hat wear the cat?''')
