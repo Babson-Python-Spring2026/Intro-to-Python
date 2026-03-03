@@ -18,7 +18,7 @@ RULE:  Do not change any executable code (no reformatting logic, no renaming var
 1) Define STATE for this program.
    - What variables change as the program runs?
 2) Explain where TRANSITIONS happen.
-   - Where does the state change? (Moves, undo moves, recording unique boards, counters…)
+   - Where does the state change? (where in the code, which functions)
 3) Identify 4 INVARIANTS.
    - What properties remain true as the program runs (and what checks enforce them).
    - For instance: has_winner() is a check; the invariant is “we do not continue exploring after a win.”
