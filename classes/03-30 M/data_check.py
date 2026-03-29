@@ -76,6 +76,6 @@ if issues:
 else:
     flagged = pd.DataFrame(columns=["Ticker", "Date", "Issue"])
 
-flagged.to_csv("data_issues.csv", index=False)
+flagged.to_csv(BASE_DIR / "data_issues.csv", index=False)
 print(flagged.to_string(index=False))
 print(f"\nRows flagged: {len(flagged)}")
